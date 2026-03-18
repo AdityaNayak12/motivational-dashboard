@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="title">🌞 Daily Motivation</h1>
+      <h1 className="title"> Daily Motivation</h1>
 
       <QuoteCard quote={quote} author={author} loading={loading} />
 

@@ -1,7 +1,7 @@
 function LikedQuotes({ likedQuotes }) {
     return (
         <div className="liked-section">
-            <h2>❤️ Your Liked Quotes</h2>
+            <h2>Your Liked Quotes</h2>
 
             {likedQuotes.length === 0 ? (
                 <p>No liked quotes yet</p>
